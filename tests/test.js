@@ -1,7 +1,7 @@
 // tests/test.js
 const chai = require('chai');
 const chaiHttp = require('chai-http');
-const app = require('../index'); // Ensure this path matches your project structure
+const app = require('../index'); // Import the app
 
 chai.use(chaiHttp);
 const { expect } = chai;
